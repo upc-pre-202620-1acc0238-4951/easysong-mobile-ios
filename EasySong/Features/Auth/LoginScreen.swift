@@ -64,6 +64,8 @@ struct LoginScreen: View {
             })
             .navigationBarBackButtonHidden()
             .tint(.orange)
+            .background(.black)
+            .preferredColorScheme(.dark)
         }
         
     }

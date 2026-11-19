@@ -11,7 +11,7 @@ struct MainScreen: View {
     var body: some View {
         TabView {
             Tab("Home", systemImage: "house") {
-                
+                HomeScreen()
             }
             
             Tab("Favorites", systemImage: "heart") {
@@ -24,6 +24,8 @@ struct MainScreen: View {
         }
         .navigationBarBackButtonHidden()
         .tint(.orange)
+        .background(.black)
+        .preferredColorScheme(.dark)
     }
 }
 
