@@ -11,7 +11,8 @@ import SwiftUI
 struct EasySongApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            OnBoardingScreen()
         }
     }
 }
+
